@@ -1,0 +1,26 @@
+.Login__container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/image/image_login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .row {
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+
+        .Login__container-form {
+                --width: 640px;
+                background: var(--white-color);
+                border-radius: 8px;
+                max-width: calc(100vw - 32px);
+                min-height: 500px;
+                padding: 48px 16px;
+                position: relative;
+                width: var(--width);
+        }
+    }
+}
