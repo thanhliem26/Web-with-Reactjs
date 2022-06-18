@@ -1,0 +1,196 @@
+.Login__container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/image/image_login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .row {
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+
+        .Login__container-form {
+                --width: 640px;
+                background: var(--white-color);
+                border-radius: 8px;
+                max-width: calc(100vw - 32px);
+                min-height: 500px;
+                padding: 25px 16px;
+                position: relative;
+                width: var(--width);
+
+                .Login__container-logo {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+
+                    img {
+                        height: 100px;
+                        object-fit: cover;
+                        width: 70px;  
+                    }
+
+                    h1 {
+                        color: #292929;
+                        font-size: 2.8rem;
+                        font-weight: 700;
+                        line-height: 0;
+                    }
+
+                    i {
+                        position: absolute;
+                        font-size: 3rem;
+                        top: 30%;
+                        transform: translateY(-50%);
+                        left: 5%;
+                        cursor: pointer;
+                    }
+                }
+
+                .Login__container-plugin {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 50px;
+                }
+
+                .Login__container-change {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 15px;
+                    margin-top: 20px;
+                    p {
+                        color: var( --black-color);
+                        span {
+                            color: var(--primary-color);
+                            font-weight: 600;
+                            font-size: 16px;
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+                .Register__email {
+                    margin-top: 20px;
+                
+
+                    .form__group {
+                        width: 60%;
+
+                        .errMessage {
+                            color: red;
+                            padding: 0 10px;
+                        }
+
+                        &.forgot__pass {
+                            margin-top: 20px;
+
+                        }
+
+                        &.validate {
+
+
+                            .btn__notAllow {
+                                background-color: var(--primary-color) !important;
+                                color: white !important;
+                                cursor: pointer !important;
+
+                                &.counter {
+                                    background-color: #ccc !important;
+                                    color: #757575 !important;
+                                    cursor: not-allowed !important;
+                                }
+                            }
+                        }
+                        label {
+                            display: block;
+                            font-size: 1.6rem;
+                            font-weight: 600;
+                            margin: 10px 0 10px 8px;
+                        }
+
+                        span {
+                            font-size: 1.4rem;
+                            line-height: 2.5;
+                        }
+
+                        .form__group-input {
+                            background: rgba(22,24,35,.06);
+                            border: 1px solid rgba(22,24,35,.06);
+                            border-radius: 44px;
+                            display: flex;
+                            height: 44px;
+                            overflow: hidden;
+                            position: relative;
+
+                            input {
+                                background-color: transparent;
+                                border: none;
+                                display: block;
+                                flex: 1 1;
+                                font-size: 1.4rem;
+                                outline: none;
+                                padding: 12px 20px;
+                            }
+
+                            i {
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                right: 5%;
+                                font-size: 1.6rem;
+                                cursor: pointer;
+                            }
+
+                            .btn__notAllow {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                width: 35%;
+                                height: 100%;
+                                border-radius: 44px;
+                                background-color: #ccc;
+                                color: #757575;
+                                cursor: not-allowed;
+                                border: none;
+                            }
+                        }
+
+                        .btn__submit {
+                            width: 100%;
+                            margin-top: 20px;
+                            border: none;
+                            padding: 15px;
+                            background-image: linear-gradient(45deg, #19bfd0, #4cde4e);
+                            border-radius: 3px;
+                            color: var(--white-color);
+                            font-size: 1.8rem;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .forgot__password {
+                        position: absolute;
+                        bottom: 5%;
+                        font-size: 1.6rem;
+                        color: var(--primary-color);
+                        cursor: pointer;
+                    }
+                }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 46.1875em) {
+    .form__group {
+        width: 90% !important;
+    }
+}

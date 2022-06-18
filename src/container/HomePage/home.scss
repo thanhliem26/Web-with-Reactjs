@@ -1,0 +1,298 @@
+.Home__Container {
+  width: 100%;
+  margin-top: 100px;
+  .Home__Container-background {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .overLay {
+      position: absolute;
+      display: block;
+      inset: 0;
+      background-color: rgb(43 137 191 / 60%);
+    }
+
+    h4 {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      color: white;
+      font-weight: 400;
+    }
+  }
+
+  .Project__Title {
+    margin-top: 100px !important;
+
+    .Project__Important {
+      display: flex !important;
+
+      .image {
+        width: 100%;
+        position: relative;
+        img {
+          width: 100%;
+        }
+
+        .motor {
+          position: absolute;
+          right: -5px;
+          bottom: 10%;
+          background-color: #cf0f0f;
+          font-size: 14px;
+          height: 50px;
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+      }
+
+      .title {
+        h3 {
+          font-size: 25px;
+          margin: 0;
+          color: #0a98c2;
+        }
+        p {
+          font-size: 20px;
+        }
+
+        .more {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+
+          button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+
+            &:hover {
+              color: red;
+              background-color: white;
+              border: 2px solid red;
+            }
+          }
+        }
+      }
+    }
+
+    .ProjectItem {
+      margin-top: 40px;
+      width: 100%;
+
+      .Title {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #b9afaf;
+        p {
+          display: flex;
+          align-items: baseline;
+          font-size: 20px;
+          color: #004256;
+        }
+
+        button {
+          width: 130px;
+          height: 50px;
+          margin-top: 20px;
+          background-color: red;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          transition: all 0.3s ease;
+          &:hover {
+            background-color: white;
+            color: red;
+            border: 2px solid red;
+          }
+        }
+      }
+
+      .ListItem {
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 5px solid #00ffe7;
+        border-radius: 5px;
+        .formGroup {
+          width: 100%;
+          margin-top: 40px;
+
+          .formOVL {
+            width: 100%;
+            border: 1px solid grey;
+          }
+          .formGroupImage {
+            width: 100%;
+            position: relative;
+            img {
+              width: 100%;
+              height: 180px;
+            }
+            .motor {
+              position: absolute;
+              right: -5px;
+              bottom: 10%;
+              background-color: #cf0f0f;
+              font-size: 14px;
+              height: 50px;
+              width: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: white;
+            }
+          }
+
+          .formGroupTitle {
+            padding: 10px;
+
+            h2 {
+              height: 50px;
+              color: #004256;
+              font-size: 18px;
+            }
+
+            p {
+              font-size: 20px;
+              height: 95px;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+
+            h4 {
+              color: #004256;
+              font-size: 18px;
+            }
+
+            h3 {
+              color: #008cb7;
+              font-size: 20px;
+
+              span {
+                font-size: 18px;
+              }
+            }
+
+            button {
+              width: 100%;
+              height: 50px;
+              margin-top: 20px;
+              background-color: red;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              font-size: 16px;
+              transition: all 0.3s ease;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .MORE {
+          text-align: center;
+          font-size: 20px;
+          margin: 40px 0;
+          text-decoration: none;
+          color: #0f67af;
+          font-weight: 700;
+          width: 100%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.gridChange {
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    .col {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      position: relative;
+      .Info {
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: revert;
+        position: relative;
+        .OverLay {
+          position: absolute;
+          inset: 0;
+          background-color: rgb(14 126 159 / 60%);
+        }
+
+        element.style {
+          position: absolute;
+          top: 10%;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 18px;
+          color: white;
+        }
+      }
+      .Info__Title {
+        position: absolute;
+        font-size: 18px;
+        color: white;
+        inset: 0;
+
+        h2 {
+          text-align: center;
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+}
+
+.Info__Title-member {
+  .formGroup {
+    display: flex;
+    margin: 30px 0px;
+
+    .formIcon {
+      width: 200px;
+      height: 76px;
+      background-color: transparent;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid white;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #018cb7;
+      }
+    }
+
+    .formTitle {
+      padding: 0 20px;
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}

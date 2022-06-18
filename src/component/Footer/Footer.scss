@@ -1,0 +1,31 @@
+.Footer {
+  min-height: 300px;
+  background-color: #20c8ff;
+  padding: 50px 0;
+
+  .FooterTitle {
+    width: 100%;
+
+    .Title {
+      font-size: 14px;
+      color: white;
+      text-transform: uppercase;
+      border-bottom: 2px solid white;
+      height: 40px;
+    }
+
+    .Content {
+      font-size: 18px;
+      color: white;
+
+      .row {
+        .col {
+          p {
+            border-bottom: 1px solid white;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

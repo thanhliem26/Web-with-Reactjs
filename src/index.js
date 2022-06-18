@@ -6,16 +6,17 @@ import './styles/responsive.css';
 import App from './container/App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-//redux
+//import redux
 import {reduxStore, persistor} from './redux';
-// import { PersistGate } from 'redux-persist/lib/integration/react';
+//import language
+import InitProvider from './hoc/InitProviderWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={reduxStore}>
-    {/* <PersistGate loading={null} persistor={persistor}> */}
-      <App persistor={persistor}/>
-    {/* </PersistGate> */}
+      <InitProvider>
+        <App persistor={persistor}/>
+      </InitProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

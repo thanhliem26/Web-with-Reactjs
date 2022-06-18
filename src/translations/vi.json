@@ -1,0 +1,32 @@
+{
+    "login" : {
+        "login__main": "Đăng nhập vào FX",
+        "mail": "Continue with Email",
+        "google": "Continue with Google",
+        "facebook": "Continue with FaceBook",
+        "ask": "Bạn đã có tài khoản?",
+        "login": "Đăng nhập",
+        "forgot": "Quên mật khẩu?",
+        "placeholder__email": "Địa chỉ email",
+        "placeholder__password": "Mật khẩu",
+        "Password": "Mật khẩu",
+        "confirm__password": "Nhập mật khẩu mới",
+        "confirm__code": "Nhập mã xác nhận",
+        "send__code": "Gủi mã",
+        "send__code-again": "Gủi lại mã",
+        "confirm": "Xác nhận",
+        "err__email": "Email không hợp lệ"
+    },
+    "register": {
+        "regi__main": "Đăng kí tài khoản FX",
+        "ask": "Bạn chưa có có tài khoản?",
+        "regi": "Đăng kí",
+        "name": "Tên của bạn?",
+        "placeholder__name": "Họ và tên của bạn",
+        "note": "Gợi ý: Mật khẩu cần ít nhất 8 kí tự"
+    },
+    "NotFound": {
+        "content":"URL của nội dung này đã bị thay đổi hoặc không còn tồn tại. Nếu bạn đang lưu URL này, hãy thử truy cập lại từ trang chủ thay vì sử dụng URL đã lưu.",
+        "button": "Truy cập trang chủ"
+    }
+}

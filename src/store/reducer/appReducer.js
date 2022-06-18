@@ -1,10 +1,10 @@
 const initState = {
-    language: "VI",
-    background: "white"
+  language: 'en',
+  dark: false,
 }
 
 const appReducer = (state = initState, action) => {
-    return initState;
+  return initState
 }
 
-export default appReducer;
+export default appReducer

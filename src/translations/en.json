@@ -1,0 +1,32 @@
+{
+    "login" : {
+        "login__main": "Login to FX",
+        "mail": "Continue with Email",
+        "google": "Continue with Google",
+        "facebook": "Continue with FaceBook",
+        "ask": "Do you have an account?",
+        "login": "Login",
+        "forgot": "Forgot Password?",
+        "placeholder__email": "Email address",
+        "placeholder__password": "Password",
+        "Password": "Password",
+        "confirm__password": "Enter your new password",
+        "confirm__code": "Enter your confirmation code",
+        "send__code": "Send code",
+        "send__code-again": "Send code again",
+        "confirm": "Confirmation",
+        "err__email": "Email is not valid"
+    },
+    "register": {
+        "regi__main": "Sing up for an FX account",
+        "ask": "You don't have an account yet?",
+        "regi": "Register",
+        "name": "Your name?",
+        "placeholder__name": "Full Name",
+        "note": "Hint: Password needs to be at least 8 characters"
+    },
+    "NotFound": {
+        "content": "The URL of this content has been changed or no longer exists. If you are saving this URL, try accessing it again from the homepage instead of using the saved URL.",
+        "button": "Go to Home"
+    }
+}
